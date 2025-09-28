@@ -61,7 +61,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				sberbank: {
+					green: '#2FB344',
+					lightGreen: '#E8F5E8',
+					blue: '#2563EB',
+					gray: '#8E9196',
+					lightGray: '#F8F9FA',
+					white: '#FFFFFF'
 				}
+			},
+			fontFamily: {
+				'sf-pro': ['SF Pro Display', 'SF Pro Text', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
